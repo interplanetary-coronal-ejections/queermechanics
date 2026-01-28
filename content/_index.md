@@ -4,8 +4,4 @@ menu = "main"
 weight = 10
 +++
 
-# Home
-
-testing
-
-
+Hello

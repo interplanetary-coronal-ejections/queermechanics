@@ -2,6 +2,7 @@
 # Set to the URL for your site
 baseURL = "https://interplanetaryqueer.space"
 
+
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
 
@@ -23,7 +24,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
-  description = "test site"
+  description = " A blog by Luna"
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
   # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
@@ -55,6 +56,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   # dateFormat = "2006-01-02"
+     
 
 # Configure markup highlighter to match "Bearblog" aesthetics, see
 # https://gohugo.io/configuration/markup/#highlight
@@ -64,6 +66,17 @@ ignoreErrors = ["error-disable-taxonomy"]
     lineNos = true
     lineNumbersInTable = false
     codeFences = true
+
+[params.social]
+      twitter = "PunishedFredda"
+
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
+
+disableKinds = ['rss']  
 
 [caches]
   [caches.images]
