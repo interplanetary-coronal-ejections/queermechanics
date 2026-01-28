@@ -67,8 +67,6 @@ ignoreErrors = ["error-disable-taxonomy"]
     lineNumbersInTable = false
     codeFences = true
 
-[params.social]
-      twitter = "PunishedFredda"
 
 [outputs]
   home = ['html', 'rss']
