@@ -1,10 +1,11 @@
 +++
 title = "ai trash content"
-slug = "ai trash content"
+slug = "2026-01-30 ai trash content"
 date = "2026-01-30T22:21:04.986Z"
 tags = ['media','ai']
 
 draft = false
+
 +++
 
 
