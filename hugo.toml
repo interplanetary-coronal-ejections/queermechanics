@@ -74,7 +74,6 @@ ignoreErrors = ["error-disable-taxonomy"]
   taxonomy = ['html']
   term = ['html']
 
-disableKinds = ['rss']  
 
 [caches]
   [caches.images]
