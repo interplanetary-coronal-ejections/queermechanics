@@ -2,6 +2,7 @@
 title = "Hello World"
 date = "2026-01-25"
 slug = "2026-01-25 Hello World"
+url = "blog/:year/:month/:day/:slug"
 tags = []
 
 +++

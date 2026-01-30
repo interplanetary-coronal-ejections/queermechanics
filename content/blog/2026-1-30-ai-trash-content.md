@@ -4,6 +4,8 @@ slug = "2026-01-30 ai trash content"
 date = "2026-01-30T22:21:04.986Z"
 tags = ['media','ai']
 
+url = "blog/:year/:month/:day/:slug"
+
 draft = false
 
 +++

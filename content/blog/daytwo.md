@@ -3,6 +3,7 @@ title = "Hopefuly works"
 slug = "2026-01-27 Hopefuly works"
 date = "2026-01-27"
 tags = []
+url = "blog/:year/:month/:day/:slug"
 
 
 +++
