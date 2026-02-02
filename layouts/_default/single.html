@@ -4,7 +4,8 @@
 <p>by 	
   {{ range .Param "authors" }}
 		{{ . }}
-	{{ end }}</p>
+	{{ end }}
+</p>
 <p>
   <i>
     <time datetime='{{ .Date.Format "2006-01-02" }}'>
