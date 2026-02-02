@@ -19,12 +19,12 @@ enableRobotsTXT = true
 # disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [permalinks] 
-  blog = "blog/:year/:month/:day/:slug"
+  blog = "/blog/:year/:month/:day/:slug"
   tags = "/blog/tags/:slug"
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
-  description = " A blog by Luna"
+  description = "Queer Mechanics is a website for posting random thoughts in a place that I have more control over. I post my thoughts from chemistry to philosophy to just what is happening in our lives. Welcome to this silly interplanetary blog. "
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
   # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
@@ -48,7 +48,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # By default, if you want to read more than one blog post you have to always go
   # back to the /blog page.
   # By enabling this feature each blog post will have at the end a navigator
-  # enablePostNavigator = true
+  enablePostNavigator = true
 
   # By default, this theme displays dates with a format like "02 Jan, 2006", but
   # you can customize it by setting the `dateFormat` param in your site's config
